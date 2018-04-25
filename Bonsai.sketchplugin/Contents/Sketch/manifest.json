@@ -1,0 +1,18 @@
+{
+    "name" : "Bonsai Standards",
+    "identifier" : "standards.plugin",
+    "version" : "0.1",
+    "description" : "Auto update Bonsai Standards components",
+    "authorEmail" : "hzheng@ancestry.com",
+    "author" : "Hui Zheng",
+
+    "commands" : [
+    {
+      "script" : "ColorUpdate.js",
+      "handler" : "onRun",
+      "shortcut" : "command shift b",
+      "name" : "Update Colors",
+      "identifier" : "standards.plugin.pagenames"
+    }
+  ],
+}
